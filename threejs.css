@@ -1,0 +1,241 @@
+/* CSS declarations go here */
+
+#logo {
+  align-items: center;
+}
+#logo img {
+  height: 16vw;
+  width: 16vw;
+  margin-top: 1vw;
+}
+#navbtn a:hover {
+  color: white;
+}
+#title {
+  color: black
+}
+ul {
+  margin-top: 50px !important;
+  margin-bottom: 10px;
+}
+.filler {
+  clear: both;
+}
+ul {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  color: grey;
+}
+li a:visited {
+  text-decoration: none;
+  color: grey;
+}
+li a:hover {
+  text-decoration: none;
+  color: #000;
+}
+li a:focus {
+  text-decoration: none;
+  color: white;
+}
+li a:hover, .navBtn:active {
+  text-decoration: none;
+  color: #000;
+}
+.navContainer {}
+.navContainer #logo {
+  float: right;
+  align-items: right;
+  margin-right: 0;
+  display: inline;
+}
+#navbtn {
+  float: right;
+  text-align: right;
+  text-decoration: none;
+  font-size: 2vw;
+  font-family: courier;
+  position: relative;
+  box-sizing: content-box;
+  display: inline;
+  letter-spacing: 1vw;
+  margin-right: 1vw;
+  line-height: 3.2vw;
+  margin-top: -3vw;
+}
+.zmdi.zmdi-close-circle-o {
+  font-size: 36px;
+  margin-top: 8vw;
+}
+.zmdi.zmdi-close-circle-o {
+  position: relative;
+}
+.moreInfoContainer:hover {
+  color: white;
+}
+.moreInfoContainer {
+  width: 50vw;
+  margin-left: 10vw;
+}
+#about-me {
+  font-family: courier;
+  margin-left: 6vw;
+  margin-top: -3.8vw;
+  font-size: 3vw;
+}
+#info {
+  font-family: courier;
+  margin-left: 6vw;
+  font-size: 3vw;
+  margin-top: -8vw;
+}
+#s-title {
+  position: absolute;
+  display: inline-block;
+  margin-top: 84px;
+  margin-left: 18px;
+  font-size: 22px;
+  font-family: courier;
+}
+.projectTitles {
+  font-family: monospace;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+.projectTitles span {
+  text-color: grey !important
+}
+#pickaproject-container {
+  display: flex;
+  flex-flow: column;
+  height: 425px;
+}
+#pickaprojectdiv {
+  border: 5px solid black;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  flex: 1 1 auto;
+}
+#word-input-container {
+  position: relative;
+  font-family: courier;
+  text-align: center;
+  z-index: 1;
+}
+#word-input {
+  font-family: courier;
+  text-align: center;
+  z-index: 1;
+}
+body {
+  margin: 0;
+  line-height: normal !important;
+  background-repeat: no-repeat;
+  background-image: url("http://i521.photobucket.com/albums/w335/666crystalmeth/background%20ocean_zpsez8supk6.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#website-container {
+  background-color: white;
+}
+canvas {
+  padding-left: 0px;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+#animateCanvas {
+  display: flex;
+  position: relative;
+  align-content: center;
+  align-items: center;
+}
+#myCanvas {
+  position: relative;
+  top: -150px;
+  z-index: -10;
+}
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+.nav li {
+  display: inline;
+}
+.jumbotron {
+  background-image: url('http://apturfactory.com/data/frontImages/tours/tours_image/1370609744_brazil06.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron .container {
+  position: relative;
+  top: 100px;
+}
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.5;
+  padding: 25px;
+}
+.learn-more {
+  background-color: #f7f7f7;
+}
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.learn-more a {
+  color: #0000FF;
+}
+.jumbotron a {
+  color: #0066ff !important;
+}
+.neigborhood-guides {
+  background-color: #efefef;
+  border-bottom: 1px solid #dbdbdb;
+}
+.neighborhood-guides h2 {
+  color: #393c3d;
+  font-size: 24px;
+}
+.neighborhood-guides p {
+  font-size: 15px;
+  margin-bottom: 13px;
+}
+.rotate {
+  -webkit-transform: rotateZ(-45deg);
+  -ms-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+  transition-duration: 300ms;
+}
+.unrotate {
+  -webkit-transform: rotateZ(+45deg);
+  -ms-transform: rotateZ(+45deg);
+  transform: rotateZ(+45deg);
+  transition-duration: 300ms;
+}
+.hide {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+.show {
+  opacity: 100%;
+  transition: opacity 300ms;
+}
